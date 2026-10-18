@@ -1,0 +1,5 @@
+Local validation: 6 automated tests passed.
+Tests cover all four arms, timing gates, return links, duplicate submissions, CSV exports, authentication, and SQLite persistence.
+No participant results have been collected.
+Browser visual preview could not be completed because the browser download failed. Review desktop and phone screens in TEST mode before recruitment.
+The Stata file and hosted PostgreSQL deployment have not been executed here.

@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block body %}<h1>Please check / يرجى المراجعة</h1><p>{{message}}</p><a class="button" href="{{url_for('study') if session.get('pid') else url_for('home')}}">Continue / متابعة</a>{% endblock %}

@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block body %}<h1>Researcher login</h1><form method="post"><input type="hidden" name="csrf" value="{{csrf_token()}}"><label>Admin password<input type="password" name="password" autocomplete="current-password" required></label><button>Sign in</button></form>{% endblock %}
