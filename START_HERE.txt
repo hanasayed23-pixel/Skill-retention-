@@ -1,0 +1,33 @@
+ASWAN SKILLS EXPERIMENT — START HERE
+
+This is the work-task experiment about skill retention and changed requirements.
+It is NOT the earlier hiring-profile simulation.
+
+WHAT YOU WILL HAVE
+- A private researcher dashboard at /admin
+- Individual participant links
+- Four randomized arms, balanced in blocks of four
+- Baseline, two possible refresher opportunities, retention and work tasks
+- TEST mode (no waiting) and LIVE mode (days 2, 4 and 7)
+- Separate CSV exports for test and live records
+- English/Arabic participant instructions
+
+YOUR FIRST STEP
+1. Extract this ZIP into an ordinary folder.
+2. Open README.md (or read it on GitHub).
+3. Upload the application files and the templates/ and static/ folders to a NEW GitHub repository.
+4. In Render, choose New > Blueprint and select that repository. render.yaml sets up the web app and a PostgreSQL database.
+5. Set ADMIN_PASSWORD (at least 12 characters) and STUDY_CONTACT when prompted.
+6. After deployment, open https://YOUR-APP.onrender.com/admin.
+7. Create 12 TEST invitations. Save the links shown once, and test the whole sequence.
+
+Do not upload instance/, private settings, invitation links or response exports to GitHub.
+The supplied package contains no participant data and no active secrets.
+
+BEFORE REAL PARTICIPANTS
+Set the correct contact and approved consent language. Review Arabic wording and task equivalence with intended participants. Obtain the university's required review and consent. Then set LIVE_RECRUITMENT=true in Render, save and redeploy. Create a NEW LIVE invitation batch. Test and live participants never share a record.
+
+DATABASE
+The blueprint uses Render's free PostgreSQL as a convenient test/pilot option. Render currently expires free databases after 30 days. Download all three CSV exports after each collection day and before expiry, or arrange a database with an adequate retention period. Local SQLite files are not used on Render. Database backups are a separate responsibility.
+
+This package has been tested locally, not deployed into your accounts. A 10–15-person study is a feasibility pilot; task rounds are not independent people. No results have been collected.
